@@ -1,0 +1,15 @@
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="../static/js/jquery-1.12.4.js"></script>
+<script src="../static/js/input.js"></script>
+
+<div class="container">
+    <div class="jumbotron">
+    <h1>Stock Prices</h1>
+    <form class="form-value">
+        <label for="companyName" class="sr-only">Enter Symbol</label>
+        <input type="name" name="companyName" id="companyName" class="form-control" placeholder="Symbol(s)" required autofocus>
+        <button id="inputButton" class="btn btn-lg btn-primary btn-block" type="button">Look Up</button>
+    </form>
+	</div>
+<div id="container" style="height: 300px"></div>
