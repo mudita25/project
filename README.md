@@ -1,0 +1,5 @@
+# stock-price-prediction
+Stock Price Prediction using Linear Regression in Python
+
+The project is a model to predict stock prices of companies over a period of time. The algorithm aims to foresee whether future's exchange price is going to be lower or higher with respect to current rates. The basic idea is to scrape the web programmatically, i.e. crawl the reliable financial sites like Yahoo, Bloomberg and obtain the data using various python modules. Once the historic data is available, predict the stock price using linear regression. Linear regression is an approach for modeling the relationship
+between independent and dependent variables. It also consists of finding the best-fitting straight line, also known as a regression line, through the points. Once regression line is plotted, next step is to plot predicted stock prices in the graph. On trading chart, linear regression line goes through the center of the price series, from which price trends can be analyzed. This line minimizes the distance from itself to each price close along the line and thus provides a way to evaluate trends.
